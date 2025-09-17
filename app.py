@@ -63,18 +63,18 @@ st.markdown("""
 
 # The 12 questions from the original quiz
 questions = [
-    "Does he turn everyone—friends, family, dog—into spies who suddenly hate you?",
-    "Does he pit you against mutual friends with whispers, lies, and fake beef?",
-    "Do your wins—job, hobby, mood—get crushed, interrupted, or turned into 'but you\'re ignoring ME'?",
-    "Does he ask for 'help' on easy shit—then blame you when he 'fails' (even if he never tried)?",
-    "Does he joke about your 'failure' in public? Use your name to book stuff—then no-show and trash your rep?",
-    "Do innocent things—like walking your dog—get twisted into 'You\'re doing it to hurt me / fuck someone else'?",
-    "Is he gone all day—no word—then demands a 3-hour report on your moves while hiding his?",
-    "Is he sweet only when he's about to vanish—or when he needs something? Cold the second you relax?",
-    "Does he suddenly spam details—'On 5th, buying gum'—right before ghosting or blowing up?",
-    "Does he leech when broke—then cut you off cold the second he's paid? 'Fuck off, you\'re not my kid'?",
-    "Does he flirt with women but freak if you say hi to a guy? Accuse you of jealousy—while texting exes about you?",
-    "Does he weaponize your past ('Remember when you were crazy?')—and make you late/tired so you lose jobs?"
+    "Sabotage Campaign: Does he turn everyone—friends, family, dog—into spies who suddenly hate you?",
+    "Triangulation Matrix: Does he pit you against mutual friends with whispers, lies, and fake beef?",
+    "Success Assassin: Do your wins—job, hobby, mood—get crushed, interrupted, or turned into 'but you\'re ignoring ME'?",
+    "Help-as-Alib: Does he ask for 'help' on easy shit—then blame you when he 'fails' (even if he never tried)?",
+    "Public Scapegoat: Does he joke about your 'failure' in public? Use your name to book stuff—then no-show and trash your rep?",
+    "Weaponized Insecurity (Twist Reality): Do innocent things—like walking your dog—get twisted into 'You\'re doing it to hurt me / fuck someone else'?",
+    "Absence-Interrogation Flip: Is he gone all day—no word—then demands a 3-hour report on your moves while hiding his?",
+    "Charm Blackout: Is he sweet only when he's about to vanish—or when he needs something? Cold the second you relax?",
+    "Over-Information Burst: Does he suddenly spam details—'On 5th, buying gum'—right before ghosting or blowing up?",
+    "Freeloader Flip: Does he leech when broke—then cut you off cold the second he's paid? 'Fuck off, you\'re not my kid'?",
+    "Hypocrisy Vortex: Does he flirt with women but freak if you say hi to a guy? Accuse you of jealousy—while texting exes about you?",
+    "Past-as-Bludgeon + Job Sabotage: Does he weaponize your past ('Remember when you were crazy?')—and make you late/tired so you lose jobs?"
 ]
 
 def calculate_score(answers):
@@ -223,4 +223,3 @@ st.markdown("""
     <p>Built with Streamlit | Deploy to <a href='https://streamlit.io/cloud' target='_blank'>Streamlit Cloud</a></p>
 </div>
 """, unsafe_allow_html=True)
-
